@@ -150,6 +150,8 @@ async function main() {
         { address: "0x34f24991234067B63149D34691B5C17641Afe60C", abi: BCC_BAC_ABI, rewardToken: "basisCash", stakeToken: "bac" },
         { address: "0x08986f3E298fA25ebA13b1B5507c6569F653a0d1", abi: BCC_BAS_ABI, rewardToken: "basisCash", stakeToken: "bas" },
         { address: "0xd12ff490eed822924f022ded3d272f3eebd3859e", abi: BCC_DAI_ABI, rewardToken: "basisCash", stakeToken: "dai" },
+        { address: "0x3fdc28901216c6ed39e0cfad89b8111bd46033bc", abi: BCC_USDC_ABI, rewardToken: "basisCash", stakeToken: "usdc" },
+        
     ];
 
     const App = await init_ethers();
