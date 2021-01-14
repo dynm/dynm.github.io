@@ -145,8 +145,8 @@ async function loadBoardroom(App, tokens, prices) {
 
 async function main() {
     const CONTRACTS = [
-        { address: "0xAe49F34331f31e1C1ADA91213b47b4065a04516b", abi: BSG_DAIBSG_ABI, rewardToken: "basisShare", stakeToken: "lpt" },
         { address: "0x3B871056E9f13aA3BA5b4dC3f71f00f7dc652199", abi: BSG_DAIBSGS_ABI, rewardToken: "basisShare", stakeToken: "lpt" },
+        { address: "0xAe49F34331f31e1C1ADA91213b47b4065a04516b", abi: BSG_DAIBSG_ABI, rewardToken: "basisShare", stakeToken: "lpt" },
         { address: "0x4330E43F5b1e7D3Ea7B0a177Af50C6B2489ca406", abi: BSG_BAC_ABI, rewardToken: "basisGold", stakeToken: "bac" },
         { address: "0xbBeCd4FC3C04769837DcA2305EeF53DC3cf4E620", abi: BSG_DAI_ABI, rewardToken: "basisGold", stakeToken: "dai" },        
     ];
